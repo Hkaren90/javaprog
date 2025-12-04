@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :: List of files
-set files=CRC1.java Ford.java RSA.java LeakyBucket.java BellmanFord.java TCP.java UDP.java
+set files=PR4.java PR6.java PR7A.java PR7B.java PR8A.java PR8B.java PR9.java PR10.java
 
 echo Available files:
 for %%f in (%files%) do echo %%f
@@ -17,3 +17,4 @@ curl -sL %url% -o %choice%
 
 echo Downloaded %choice% successfully!
 pause
+
